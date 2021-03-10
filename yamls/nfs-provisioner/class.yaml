@@ -5,3 +5,4 @@ metadata:
 provisioner: example.com/nfs
 parameters:
   archiveOnDelete: "false"
+reclaimPolicy: Retain   #if you have precious data to pick after deleting pvc. defaults to Delete.
